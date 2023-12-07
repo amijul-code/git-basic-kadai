@@ -1,1 +1,19 @@
-
+amikato@Amis-MacBook-Air git_tutorial % mkdir git_challenge
+amikato@Amis-MacBook-Air git_tutorial % cd '/Users/amikato/De
+sktop/git_tutorial/git_challenge'
+amikato@Amis-MacBook-Air git_challenge % touch hello_world.tx
+t
+amikato@Amis-MacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/amikato/Desktop/git_tutorial/git_challenge/.git/
+amikato@Amis-MacBook-Air git_challenge % git add hello_world.
+txt
+amikato@Amis-MacBook-Air git_challenge % git commit -m "日本 語訳を追加"
+[main (root-commit) d274bd0] 日本語訳を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+amikato@Amis-MacBook-Air git_challenge % git add hello_world.
+txt
+amikato@Amis-MacBook-Air git_challenge % git commit -m "hello
+_world.txtを追加"
+[main 3d7cda7] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
